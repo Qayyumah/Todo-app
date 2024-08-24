@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+form{
+    /* padding: 50px 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(15, 14, 14); */
+    /* min-height: 100vh; */
+    /* background-color: red; */
+    margin: 50px 250px;
+
+    @media(max-width: 900px){
+        margin: 50px 50px;
+    }
+
+    @media(max-width: 600px){
+        margin: 50px 20px;
+    }
+    @media(max-width: 376px){
+        margin: 50px 10px;
+    }
+}
+form input{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-color: powderblue;
+
+    @media(max-width: 600px){
+        width: 60%;
+    }
+}
+form button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: powderblue;
+
+    @media(max-width: 600px){
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}
+.todo-con li{
+    color: #000;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 250px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+
+    @media(max-width: 900px){
+        margin: 20px 100px;
+    }
+
+    @media(max-width: 600px){
+        margin: 20px 30px;
+    }
+
+    @media(max-width: 376px){
+        margin: 20px 10px;
+    }
+}
+.todo-con li button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
